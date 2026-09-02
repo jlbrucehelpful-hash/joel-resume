@@ -24,6 +24,7 @@ window.RESUME = {
         "Performed Active Directory account creation, password resets, security and group membership, permissions, onboarding and offboarding.",
         "Handled device builds, deployments, swaps and lifecycle tasks while maintaining accurate asset records and documentation.",
         "Owned complex Level 2 incidents through diagnosis, escalation and resolution across Tech Bar, TeamViewer and RDP support channels.",
+        "Acted as a reliable escalation point for users and service desk work, with clear communication and practical knowledge transfer.",
         "Substantially reduced a large incident and service-request backlog while maintaining BAU support and SLA expectations, earning positive CIO recognition."
       ],
       tags: ["M365", "Active Directory", "Level 2", "Endpoint lifecycle", "VIP support"]
@@ -52,7 +53,7 @@ window.RESUME = {
         "Delivered Level 1 support with additional Level 2 troubleshooting across hardware, software, networking, user access and Microsoft 365.",
         "Performed Active Directory user, group and access-request tasks while supporting onboarding, offboarding and enterprise application access.",
         "Managed 30-50+ concurrent ServiceNow incidents and service requests during high workloads within SLA and ITIL-based processes.",
-        "Maintained ownership, user communication and structured escalation to specialist technical teams."
+        "Maintained ownership, user communication and structured escalation to specialist technical teams while supporting less experienced analysts."
       ],
       tags: ["ServiceNow", "Active Directory", "ITIL", "M365", "Escalation"]
     },
@@ -107,7 +108,7 @@ window.RESUME = {
     },
     {
       title: "Systems, Cloud & Operations",
-      items: ["Azure exposure", "AWS Technical Essentials", "AWS Security Essentials", "Incident management", "Critical incidents", "SLA management", "ServiceNow", "Jira", "Confluence", "Monitoring mindset", "Operational ownership", "Documentation"]
+      items: ["Azure exposure", "AWS Technical Essentials", "AWS Security Essentials", "Incident management", "Critical incidents", "Escalation point", "SLA management", "ServiceNow", "Jira", "Confluence", "ITIL", "Knowledge transfer", "Operational ownership", "Documentation"]
     },
     {
       title: "Security & Compliance",
@@ -119,9 +120,9 @@ window.RESUME = {
     }
   ],
   adminProof: [
-    "Strong fit for Desktop Support, EUC and MSP-style technical support roles, with proven ownership across users, endpoints, applications, access, incidents and workplace technology.",
+    "Strong fit for Desktop Support, EUC and MSP-style technical support roles, with proven ownership across users, endpoints, applications, incidents and ITIL-aligned escalation.",
     "Strong practical experience across Active Directory, Microsoft 365, SCCM, Jamf Pro, vulnerability remediation and PowerShell scripting.",
-    "Well positioned for roles that bridge support, endpoint operations, M365 support, systems support, cloud-adjacent operations and security remediation."
+    "Well positioned for roles that bridge support, endpoint operations, M365 support, systems support, cloud-adjacent operations and security remediation, with clear knowledge transfer across service desk, customer and end-user audiences."
   ],
   projects: [
     {
@@ -147,7 +148,7 @@ window.RESUME = {
     {
       title: "Critical incident and operations support",
       summary: "Diagnosed business-impacting incidents, coordinated with specialist teams, supported after-hours response and maintained ownership and communication through service restoration.",
-      tags: ["Major incidents", "On-call", "Operations", "Service restoration"]
+      tags: ["Major incidents", "Escalation", "On-call", "ITIL", "Service restoration"]
     },
     {
       title: "Backlog remediation and service improvement",
