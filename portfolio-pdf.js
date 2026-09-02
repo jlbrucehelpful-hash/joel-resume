@@ -1,0 +1,6 @@
+const esc = value => String(value).replace(/[&<>'"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
+const projects = window.SHOWCASE_PROJECTS || [];
+const data = window.RESUME;
+document.getElementById('profile').innerHTML = `<p>${esc(data.roles[0].highlights[0])}</p><p>${esc(data.roles[1].highlights[0])}</p>`;
+document.getElementById('experience').innerHTML = data.roles.map(role => `<article><div><b>${esc(role.company)}</b><span>${esc(role.period)}</span></div><h3>${esc(role.title)}</h3><p>${esc(role.type)}</p></article>`).join('');
+document.getElementById('projects').innerHTML = projects.map(project => `<article><div class="project-heading"><h3>${esc(project.title)}</h3><b>${esc(project.status)}</b></div><p>${esc(project.purpose)}</p><p><strong>Technology:</strong> ${project.tech.map(esc).join(', ')}<br><strong>Contribution:</strong> ${esc(project.contribution)}<br><strong>Validation:</strong> ${esc(project.testing)}</p>${project.links.length ? `<p class="links">${project.links.map(([label, href]) => `<a href="${esc(href)}">${esc(label)}: ${esc(href)}</a>`).join('<br>')}</p>` : '<p class="muted">Link will be added when ready.</p>'}</article>`).join('');
