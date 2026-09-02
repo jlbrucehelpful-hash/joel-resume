@@ -1,5 +1,4 @@
 const data = window.RESUME;
-const contactEmail = 'jlbruce.helpful@gmail.com';
 
 const esc = value => String(value).replace(/[&<>'"]/g, char => ({
   '&': '&amp;',
@@ -87,38 +86,6 @@ const time = new Intl.DateTimeFormat('en-AU', {
 
 byId('local-time').textContent = `${time} AEST`;
 byId('top-button').addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
-
-const copyEmail = async button => {
-  try {
-    if (navigator.clipboard) {
-      await navigator.clipboard.writeText(contactEmail);
-    } else {
-      const textarea = document.createElement('textarea');
-      textarea.value = contactEmail;
-      textarea.setAttribute('readonly', '');
-      textarea.style.position = 'fixed';
-      textarea.style.opacity = '0';
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand('copy');
-      textarea.remove();
-    }
-
-    const previousText = button.textContent;
-    button.textContent = 'Copied';
-    button.disabled = true;
-    setTimeout(() => {
-      button.textContent = previousText;
-      button.disabled = false;
-    }, 1600);
-  } catch {
-    button.textContent = contactEmail;
-  }
-};
-
-document.querySelectorAll('[data-copy-email]').forEach(button => {
-  button.addEventListener('click', () => copyEmail(button));
-});
 
 document.querySelectorAll('[data-print-resume]').forEach(button => {
   button.addEventListener('click', () => window.print());
