@@ -48,9 +48,12 @@ byId('project-list').innerHTML = data.projects.map((project, index) => `
   <article class="project reveal">
     <div class="project-num">${String(index + 1).padStart(2, '0')}</div>
     <div class="project-main">
+      ${project.eyebrow ? `<span>${esc(project.eyebrow)}</span>` : ''}
       <h3>${esc(project.title)}</h3>
       <p>${esc(project.summary)}</p>
+      ${project.outcome ? `<p class="project-outcome"><strong>Outcome</strong>${esc(project.outcome)}</p>` : ''}
       <div class="tags">${project.tags.map(tag => `<i>${esc(tag)}</i>`).join('')}</div>
+      ${project.links ? `<div class="project-links">${project.links.map(([label, url]) => `<a href="${esc(url)}" target="_blank" rel="noreferrer">${esc(label)}</a>`).join('')}</div>` : ''}
     </div>
   </article>
 `).join('');

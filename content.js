@@ -6,7 +6,7 @@ window.RESUME = {
     },
     {
       title: "Automation / AI Workflow Builder",
-      summary: "Practical automation mindset across PowerShell, endpoint remediation, web content and AI-assisted build workflows using tools such as Orca, Codex and ChatGPT."
+      summary: "Hands-on workflow design across PowerShell, endpoint remediation and AI-assisted builds, with Git-based version control, testing and human review."
     },
     {
       title: "Modern Workplace / AI Adoption",
@@ -24,7 +24,6 @@ window.RESUME = {
         "Performed Active Directory account creation, password resets, security and group membership, permissions, onboarding and offboarding.",
         "Handled device builds, deployments, swaps and lifecycle tasks while maintaining accurate asset records and documentation.",
         "Owned complex Level 2 incidents through diagnosis, escalation and resolution across Tech Bar, TeamViewer and RDP support channels.",
-        "Applied an AI-curious, documentation-first approach to technical work, looking for practical ways to improve clarity, repeatability and handover quality.",
         "Acted as a reliable escalation point for users and service desk work, with clear communication and practical knowledge transfer.",
         "Substantially reduced a large incident and service-request backlog while maintaining BAU support and SLA expectations, earning positive CIO recognition."
       ],
@@ -41,7 +40,6 @@ window.RESUME = {
         "Created PowerShell and command-line scripts for SCCM inventory cycles, client actions and endpoint remediation; contributed scripts to internal tooling libraries.",
         "Managed enterprise macOS devices with Jamf Pro, including provisioning, application deployment, configuration, troubleshooting and lifecycle support.",
         "Used Tenable Cloud to identify and remediate Windows and macOS endpoint vulnerabilities in partnership with Security, Systems Administration and technical teams.",
-        "Built a strong practical base for AI-enabled operations through scripting, endpoint data gathering, pattern-based troubleshooting and cross-team technical communication.",
         "Supported critical incidents and after-hours response while working alongside Networking, Systems Administration, Technical Services, ServiceNow and Technology Operations teams."
       ],
       tags: ["SCCM", "PowerShell", "Jamf Pro", "Tenable", "Automation", "Citrix"]
@@ -98,11 +96,11 @@ window.RESUME = {
   skillGroups: [
     {
       title: "AI Tools & Workflow",
-      items: ["Orca", "Codex", "ChatGPT", "AI-assisted web building", "Prompt iteration", "AI-assisted research", "AI-assisted documentation", "Human review", "Fact checking", "Workflow design", "Content refinement", "Learning velocity"]
+      items: ["Orca AI workspace", "Codex", "ChatGPT", "AI-assisted coding", "Prompt design", "Requirements breakdown", "Context management", "AI-assisted research", "Output validation", "Human review", "Fact checking", "Workflow design"]
     },
     {
       title: "Automation & Scripting",
-      items: ["PowerShell", "Command line", "SCCM remediation scripts", "Inventory automation", "CSV workflows", "Validation and logging", "Technical documentation", "Troubleshooting playbooks", "Process improvement", "Repeatable workflows"]
+      items: ["PowerShell", "Command line", "HTML", "CSS", "JavaScript", "Git", "GitHub", "GitHub Pages", "SCCM remediation scripts", "Inventory automation", "CSV workflows", "Local testing", "Validation and logging", "Repeatable workflows"]
     },
     {
       title: "Microsoft 365 Support",
@@ -126,20 +124,28 @@ window.RESUME = {
     }
   ],
   adminProof: [
-    "Positioning this version around AI fluency built on real IT support experience, not unsupported claims or invented AI job titles.",
-    "Built and iterated this portfolio using Orca, Codex, ChatGPT and AI-assisted workflows, with human review, factual constraints and version control.",
-    "Well positioned for roles that bridge support, endpoint operations, Microsoft 365, automation, documentation and practical AI adoption."
+    "Built a responsive portfolio and resume web application with centralized JavaScript content, print-ready output and GitHub Pages delivery.",
+    "Designed a two-worktree Git workflow so a stable version and an AI-focused version can be developed, compared and deployed independently.",
+    "Use Orca, Codex and ChatGPT with scoped prompts, factual constraints, local testing, output validation and human review."
   ],
   projects: [
     {
-      title: "AI-assisted portfolio build",
-      summary: "Created and refined this personal website/resume as a practical AI project using Orca, Codex, ChatGPT, Git worktrees, prompt iteration, content review and local testing to shape a separate AI-focused version.",
-      tags: ["Orca", "Codex", "ChatGPT", "Git worktrees", "AI workflow"]
+      eyebrow: "Built & published",
+      title: "AI-assisted portfolio and resume web app",
+      summary: "Built a responsive, dependency-free website that turns centralized JavaScript data into a professional portfolio and print-ready resume. Used Orca, Codex and ChatGPT to shape requirements, write and refine code, test locally and prepare deployment through GitHub Pages.",
+      outcome: "Demonstrates AI-assisted web development from idea and content model through testing, source control and publication.",
+      tags: ["Orca", "Codex", "ChatGPT", "HTML/CSS/JS", "GitHub Pages"],
+      links: [
+        ["Live site", "https://jlbrucehelpful-hash.github.io/joel-resume/"],
+        ["Source code", "https://github.com/jlbrucehelpful-hash/joel-resume"]
+      ]
     },
     {
-      title: "AI-focused resume positioning",
-      summary: "Built a separate branch of the website to test AI-forward career positioning while keeping facts grounded in actual support, endpoint, Microsoft 365, scripting and operations experience.",
-      tags: ["Career direction", "AI fluency", "Version control", "Content strategy"]
+      eyebrow: "Workflow designed",
+      title: "Version-controlled AI build workflow",
+      summary: "Set up separate Git branches and worktrees for stable and experimental versions of the same application. Each AI conversation works against its own version, with local preview checks and an explicit deployment step controlling which version becomes live.",
+      outcome: "Keeps experimentation isolated while preserving a clear, recoverable path from AI-assisted change to production.",
+      tags: ["Git", "Git worktrees", "Version control", "Local testing", "Deployment workflow"]
     },
     {
       title: "Endpoint deployment and lifecycle",
@@ -147,8 +153,10 @@ window.RESUME = {
       tags: ["Endpoint support", "SCCM", "Jamf Pro", "Lifecycle"]
     },
     {
+      eyebrow: "Production experience",
       title: "SCCM deployment and automation",
       summary: "Application packaging and deployment, patching, device inventory and client remediation, including scripts for manual and scheduled SCCM inventory and flush cycles contributed to internal libraries.",
+      outcome: "Shows practical automation experience grounded in enterprise endpoint operations.",
       tags: ["PowerShell", "ConfigMgr", "Automation", "Packaging"]
     },
     {
@@ -187,7 +195,7 @@ window.RESUME = {
     },
     {
       title: "AI-Assisted Build Work",
-      items: ["Codex workflows", "Git branches", "Local testing", "HTML/CSS/JS", "Documentation", "Iteration"]
+      items: ["Application prototyping", "Codex workflows", "Git branches", "Git worktrees", "Local testing", "HTML/CSS/JS", "Documentation", "Iteration"]
     },
     {
       title: "Automation",
