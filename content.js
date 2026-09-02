@@ -1,16 +1,16 @@
 window.RESUME = {
   targetRoles: [
     {
-      title: "Desktop Support / EUC",
-      summary: "Strong enterprise and MSP-informed experience supporting users, endpoints, applications, access, workplace technology, VIPs and complex incidents through to resolution."
+      title: "AI-Enabled IT Support",
+      summary: "Enterprise and MSP-informed support experience, now focused on using AI tools to improve troubleshooting, documentation, knowledge work and user outcomes."
     },
     {
-      title: "Endpoint / Modern Workplace",
-      summary: "Strong hands-on experience across Windows and macOS support, SCCM, Jamf Pro, application deployment, patching, device lifecycle and endpoint remediation, with Intune and Autopilot exposure."
+      title: "Automation / AI Workflow Builder",
+      summary: "Practical automation mindset across PowerShell, endpoint remediation, web content and AI-assisted build workflows using tools such as Orca, Codex and ChatGPT."
     },
     {
-      title: "Systems / M365 / Cloud",
-      summary: "Strong experience with Microsoft 365 and Active Directory, plus hands-on exposure across Entra ID, Exchange Online, Azure, PowerShell, incident response and security remediation."
+      title: "Modern Workplace / AI Adoption",
+      summary: "Strong Microsoft 365, endpoint, identity and workplace technology base, suited to teams adopting AI responsibly inside support and operations work."
     }
   ],
   roles: [
@@ -24,10 +24,11 @@ window.RESUME = {
         "Performed Active Directory account creation, password resets, security and group membership, permissions, onboarding and offboarding.",
         "Handled device builds, deployments, swaps and lifecycle tasks while maintaining accurate asset records and documentation.",
         "Owned complex Level 2 incidents through diagnosis, escalation and resolution across Tech Bar, TeamViewer and RDP support channels.",
+        "Applied an AI-curious, documentation-first approach to technical work, looking for practical ways to improve clarity, repeatability and handover quality.",
         "Acted as a reliable escalation point for users and service desk work, with clear communication and practical knowledge transfer.",
         "Substantially reduced a large incident and service-request backlog while maintaining BAU support and SLA expectations, earning positive CIO recognition."
       ],
-      tags: ["M365", "Active Directory", "Level 2", "Endpoint lifecycle", "VIP support"]
+      tags: ["M365", "Active Directory", "Level 2", "Endpoint lifecycle", "AI-ready support"]
     },
     {
       company: "Auto & General Insurance",
@@ -40,9 +41,10 @@ window.RESUME = {
         "Created PowerShell and command-line scripts for SCCM inventory cycles, client actions and endpoint remediation; contributed scripts to internal tooling libraries.",
         "Managed enterprise macOS devices with Jamf Pro, including provisioning, application deployment, configuration, troubleshooting and lifecycle support.",
         "Used Tenable Cloud to identify and remediate Windows and macOS endpoint vulnerabilities in partnership with Security, Systems Administration and technical teams.",
+        "Built a strong practical base for AI-enabled operations through scripting, endpoint data gathering, pattern-based troubleshooting and cross-team technical communication.",
         "Supported critical incidents and after-hours response while working alongside Networking, Systems Administration, Technical Services, ServiceNow and Technology Operations teams."
       ],
-      tags: ["SCCM", "PowerShell", "Jamf Pro", "Tenable", "Citrix", "CyberArk"]
+      tags: ["SCCM", "PowerShell", "Jamf Pro", "Tenable", "Automation", "Citrix"]
     },
     {
       company: "Auto & General Insurance",
@@ -95,6 +97,14 @@ window.RESUME = {
   ],
   skillGroups: [
     {
+      title: "AI Tools & Workflow",
+      items: ["Orca", "Codex", "ChatGPT", "AI-assisted web building", "Prompt iteration", "AI-assisted research", "AI-assisted documentation", "Human review", "Fact checking", "Workflow design", "Content refinement", "Learning velocity"]
+    },
+    {
+      title: "Automation & Scripting",
+      items: ["PowerShell", "Command line", "SCCM remediation scripts", "Inventory automation", "CSV workflows", "Validation and logging", "Technical documentation", "Troubleshooting playbooks", "Process improvement", "Repeatable workflows"]
+    },
+    {
       title: "Microsoft 365 Support",
       items: ["Microsoft 365 Admin Center", "Exchange Online", "Outlook", "Teams", "OneDrive", "SharePoint", "M365 licensing", "Shared mailbox support", "User administration", "Group administration", "MFA", "Windows Hello"]
     },
@@ -113,18 +123,24 @@ window.RESUME = {
     {
       title: "Security & Compliance",
       items: ["Tenable Cloud", "Vulnerability identification", "Vulnerability remediation", "CyberArk", "Endpoint security", "Access controls", "MFA", "Security policy compliance", "Secure deployment", "Patch validation"]
-    },
-    {
-      title: "Networking & Automation",
-      items: ["PowerShell", "Command line", "SCCM remediation scripts", "Inventory automation", "TCP/IP", "DNS/DHCP", "VPN", "Cisco Meraki", "Wireshark", "LAN/WAN", "Citrix Cloud", "RDP", "TeamViewer", "ScreenConnect"]
     }
   ],
   adminProof: [
-    "Strong fit for Desktop Support, EUC and MSP-style technical support roles, with proven ownership across users, endpoints, applications, incidents and ITIL-aligned escalation.",
-    "Strong practical experience across Active Directory, Microsoft 365, SCCM, Jamf Pro, vulnerability remediation and PowerShell scripting.",
-    "Well positioned for roles that bridge support, endpoint operations, M365 support, systems support, cloud-adjacent operations and security remediation, with clear knowledge transfer across service desk, customer and end-user audiences."
+    "Positioning this version around AI fluency built on real IT support experience, not unsupported claims or invented AI job titles.",
+    "Built and iterated this portfolio using Orca, Codex, ChatGPT and AI-assisted workflows, with human review, factual constraints and version control.",
+    "Well positioned for roles that bridge support, endpoint operations, Microsoft 365, automation, documentation and practical AI adoption."
   ],
   projects: [
+    {
+      title: "AI-assisted portfolio build",
+      summary: "Created and refined this personal website/resume as a practical AI project using Orca, Codex, ChatGPT, Git worktrees, prompt iteration, content review and local testing to shape a separate AI-focused version.",
+      tags: ["Orca", "Codex", "ChatGPT", "Git worktrees", "AI workflow"]
+    },
+    {
+      title: "AI-focused resume positioning",
+      summary: "Built a separate branch of the website to test AI-forward career positioning while keeping facts grounded in actual support, endpoint, Microsoft 365, scripting and operations experience.",
+      tags: ["Career direction", "AI fluency", "Version control", "Content strategy"]
+    },
     {
       title: "Endpoint deployment and lifecycle",
       summary: "Windows and macOS imaging, configuration, application installation, deployment, swaps, upgrades, patching, troubleshooting and retirement using SCCM, Jamf Pro and Microsoft endpoint technologies.",
@@ -166,20 +182,20 @@ window.RESUME = {
   ],
   nextFocus: [
     {
-      title: "Microsoft 365",
-      items: ["Microsoft 365 Admin Center", "Exchange Online exposure", "Teams Admin exposure", "SharePoint Admin exposure", "Licensing", "Mailbox and group support"]
+      title: "AI Fundamentals",
+      items: ["Prompting", "LLM basics", "AI limitations", "Fact checking", "Evaluation mindset", "Responsible use"]
     },
     {
-      title: "Intune & Endpoint",
-      items: ["Intune exposure", "Autopilot exposure", "Configuration profiles", "Compliance policies", "App deployment", "Update rings"]
+      title: "AI-Assisted Build Work",
+      items: ["Codex workflows", "Git branches", "Local testing", "HTML/CSS/JS", "Documentation", "Iteration"]
     },
     {
-      title: "Cloud Operations",
-      items: ["Azure fundamentals", "Cloud operations concepts", "RBAC", "Resource groups", "VMs", "VNets", "Monitoring", "Backup basics"]
+      title: "Automation",
+      items: ["PowerShell", "Graph PowerShell", "CSV automation", "Endpoint reporting", "Validation", "Logging"]
     },
     {
-      title: "PowerShell",
-      items: ["Graph PowerShell", "Exchange Online PowerShell", "AD reporting", "License reporting", "CSV automation", "Validation and logging"]
+      title: "Modern Workplace",
+      items: ["Intune", "Autopilot", "Microsoft 365", "Entra ID", "Exchange Online", "Cloud operations"]
     }
   ]
 };
