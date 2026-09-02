@@ -124,6 +124,112 @@ window.RESUME = {
     "Strong practical experience across Active Directory, Microsoft 365, SCCM, Jamf Pro, vulnerability remediation and PowerShell scripting.",
     "Well positioned for roles that bridge support, endpoint operations, M365 support, systems support, cloud-adjacent operations and security remediation, with clear knowledge transfer across service desk, customer and end-user audiences."
   ],
+  portfolioProjects: [
+    {
+      name: "AI portfolio and resume website",
+      status: "Complete",
+      problem: "A professional portfolio needs to show established IT support, endpoint and automation experience through useful project evidence.",
+      built: "Built a responsive, dependency-free website and print-ready resume driven by centralized JavaScript content.",
+      usefulFor: "Employers assessing practical IT, endpoint and automation work.",
+      technologies: ["HTML", "CSS", "JavaScript", "Git", "GitHub Pages"],
+      aiTools: ["Orca", "Codex", "ChatGPT"],
+      contribution: "Defined the direction, reviewed the content, managed the worktrees, directed implementation and made the final decisions.",
+      testing: "Local HTTP preview, rendered desktop and mobile checks, print rendering and output validation.",
+      limitations: "The site is a static portfolio; project-specific applications will live in their own repositories.",
+      links: [["Live demo", "https://jlbrucehelpful-hash.github.io/joel-resume/"], ["GitHub", "https://github.com/jlbrucehelpful-hash/joel-resume"]]
+    },
+    {
+      name: "Transcription Lab",
+      status: "Planned",
+      problem: "Turn recorded audio into useful, searchable text with a review step for accuracy.",
+      built: "Planned project brief. The implementation and scope will be defined when development starts.",
+      usefulFor: "People who need faster transcription, notes and searchable records.",
+      technologies: ["To be selected"],
+      aiTools: ["To be selected"],
+      contribution: "Joel will define the workflow, implement the tool and verify transcription quality.",
+      testing: "Not started. Testing will include representative audio and human review.",
+      limitations: "Accuracy, privacy, audio formats and processing costs are still to be assessed.",
+      links: []
+    },
+    {
+      name: "Endpoint Automation Toolkit",
+      status: "Planned",
+      problem: "Make repeatable endpoint checks, reporting and remediation easier for support teams.",
+      built: "Planned project brief based on existing PowerShell and SCCM automation experience.",
+      usefulFor: "IT support and endpoint teams managing repeatable Windows operations.",
+      technologies: ["PowerShell", "Windows", "SCCM"],
+      aiTools: ["To be selected"],
+      contribution: "Joel will design the command workflows, implement safe checks and document operational use.",
+      testing: "Not started. Testing will require non-production devices and logged results.",
+      limitations: "The supported actions, permissions and rollback approach are not defined yet.",
+      links: []
+    },
+    {
+      name: "Helpdesk AI Workflow",
+      status: "Planned",
+      problem: "Helpdesk teams need a consistent way to use AI for triage, notes and knowledge work without losing human control.",
+      built: "Planned workflow design. No production implementation is claimed yet.",
+      usefulFor: "Service desks and support analysts exploring responsible AI adoption.",
+      technologies: ["To be selected", "Service desk concepts"],
+      aiTools: ["To be selected"],
+      contribution: "Joel will map the support workflow, define review points and test whether the output improves support consistency.",
+      testing: "Not started. Testing will use de-identified example tickets and human comparison.",
+      limitations: "Privacy, hallucination risk, integration and approval controls need to be designed.",
+      links: []
+    },
+    {
+      name: "Document Action Pipeline",
+      status: "Planned",
+      problem: "Extract useful actions, summaries or structured data from routine documents.",
+      built: "Planned project brief. The document types and output format are still to be selected.",
+      usefulFor: "Small teams that need to turn unstructured documents into repeatable work.",
+      technologies: ["To be selected"],
+      aiTools: ["To be selected"],
+      contribution: "Joel will define the input-to-output process, implement validation and document limitations.",
+      testing: "Not started. Testing will use sample documents with expected outputs.",
+      limitations: "Document privacy, extraction accuracy and human approval requirements remain open.",
+      links: []
+    },
+    {
+      name: "Small Business Workflow App",
+      status: "Planned",
+      problem: "Small businesses often need simple workflow tools without enterprise-level complexity.",
+      built: "Planned application concept. No completed application is claimed yet.",
+      usefulFor: "Small businesses looking to reduce repetitive administrative work.",
+      technologies: ["To be selected"],
+      aiTools: ["To be selected"],
+      contribution: "Joel will identify a focused use case, build the smallest useful workflow and test it with realistic scenarios.",
+      testing: "Not started. Testing will cover usability, failure states and repeatability.",
+      limitations: "The target business process, data handling and hosting model are not defined yet.",
+      links: []
+    },
+    {
+      name: "Project Validation Dashboard",
+      status: "Planned",
+      problem: "Projects need a clear place to track requirements, tests, decisions and known limitations.",
+      built: "Planned dashboard concept for recording project evidence and validation status.",
+      usefulFor: "IT teams and stakeholders who need visibility into whether a project is ready to use.",
+      technologies: ["To be selected"],
+      aiTools: ["To be selected"],
+      contribution: "Joel will define the evidence model and build checks that make project readiness easier to review.",
+      testing: "Not started. Testing will compare recorded evidence with known project states.",
+      limitations: "The dashboard cannot replace technical review or user testing.",
+      links: []
+    },
+    {
+      name: "Packaged Windows Utility",
+      status: "Planned",
+      problem: "Useful support scripts are easier to adopt when they have a clear interface, safe defaults and repeatable packaging.",
+      built: "Planned Windows utility concept based on practical support and automation needs.",
+      usefulFor: "IT support teams that need a controlled utility for a defined endpoint task.",
+      technologies: ["To be selected", "Windows"],
+      aiTools: ["To be selected"],
+      contribution: "Joel will define the supported task, implement guardrails and document installation and rollback.",
+      testing: "Not started. Testing will require isolated devices, logging and failure-path checks.",
+      limitations: "The utility scope, packaging method and support model are not defined yet.",
+      links: []
+    }
+  ],
   projects: [
     {
       title: "Endpoint deployment and lifecycle",
@@ -154,6 +260,104 @@ window.RESUME = {
       title: "Backlog remediation and service improvement",
       summary: "Assessed and prioritised a significant backlog by impact and urgency, resolving or escalating work while maintaining BAU support, communication, ticket quality and SLA performance.",
       tags: ["SLA", "ITIL", "Process improvement", "CIO recognition"]
+    }
+  ],
+  showcaseProjects: [
+    {
+      title: "AI portfolio and resume website",
+      status: "Live",
+      purpose: "A professional showcase layer for Joel's IT experience, technical projects and evidence of AI-assisted development.",
+      usefulFor: "Recruiters, hiring managers and technical teams reviewing practical capability.",
+      technologies: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+      aiTools: "AI-assisted planning, coding and review with human validation.",
+      contribution: "Designed the content model, structure, positioning and deployment workflow; verified the published site.",
+      validation: "Responsive layout checks, local preview checks and live HTTP verification.",
+      limitations: "Project case studies will expand as the separate tools become reliable.",
+      links: [["Live site", "https://jlbrucehelpful-hash.github.io/joel-resume/"], ["Source", "https://github.com/jlbrucehelpful-hash/joel-resume"]]
+    },
+    {
+      title: "Transcription Lab",
+      status: "Planned",
+      purpose: "A privacy-conscious local tool for turning audio into useful, timestamped transcripts and summaries.",
+      usefulFor: "People who need searchable notes from meetings, interviews or recordings without sending audio to a hosted service.",
+      technologies: ["Python", "Whisper", "Audio processing"],
+      aiTools: "Whisper Large V3 Turbo and AI-assisted workflow design.",
+      contribution: "Planned local workflow, output formats and validation approach; implementation will be documented when built.",
+      validation: "To be tested with representative, sanitised audio and clean-install instructions.",
+      limitations: "Not yet ready for public use; performance and packaging remain to be validated.",
+      links: []
+    },
+    {
+      title: "Endpoint Automation Toolkit",
+      status: "In development",
+      purpose: "PowerShell checks and reports for common Windows endpoint health and support tasks.",
+      usefulFor: "Service desk and endpoint teams needing repeatable first-line health checks.",
+      technologies: ["PowerShell", "Windows", "CSV reporting"],
+      aiTools: "AI-assisted scripting, test-case design and documentation review.",
+      contribution: "Drawing on enterprise Desktop Support experience to choose useful checks, safe defaults and support-friendly output.",
+      validation: "Each check will be tested against expected endpoint states before portfolio publication.",
+      limitations: "Scope is intentionally small initially; enterprise policy integration is out of scope for the first version.",
+      links: []
+    },
+    {
+      title: "Helpdesk AI Workflow",
+      status: "Planned",
+      purpose: "A structured workflow for turning technical notes into support responses, knowledge articles and escalation summaries.",
+      usefulFor: "Service desks and support teams improving consistency, handover quality and knowledge reuse.",
+      technologies: ["Structured prompts", "Markdown", "Workflow automation"],
+      aiTools: "LLM-assisted drafting with human review and fact checking.",
+      contribution: "Applying ITIL-aligned incident ownership and practical escalation experience to the workflow design.",
+      validation: "Outputs will be checked against sanitised support scenarios and clear acceptance criteria.",
+      limitations: "AI output will require human approval; no confidential ticket data will be used.",
+      links: []
+    },
+    {
+      title: "Document Action Pipeline",
+      status: "Planned",
+      purpose: "A tool concept for converting notes or transcripts into decisions, owners, deadlines and follow-up actions.",
+      usefulFor: "Teams that need reliable structure from unstructured meeting or project information.",
+      technologies: ["Document processing", "Structured data", "Automation"],
+      aiTools: "AI-assisted extraction, validation and iteration.",
+      contribution: "Defining practical outputs and verification steps around real workplace coordination needs.",
+      validation: "Planned tests will compare extracted actions against known, sanitised examples.",
+      limitations: "Not yet implemented; ambiguous ownership and dates will need explicit handling.",
+      links: []
+    },
+    {
+      title: "Small Business Workflow App",
+      status: "Planned",
+      purpose: "A lightweight workflow for enquiries, job intake, task status, checklists and completion summaries.",
+      usefulFor: "Small teams that need a clear operational record without a large platform rollout.",
+      technologies: ["Web application", "Forms", "Status tracking"],
+      aiTools: "AI-assisted requirements breakdown and usability iteration where appropriate.",
+      contribution: "Shaping a practical, user-focused workflow with clear boundaries and maintainable documentation.",
+      validation: "Planned scenario testing from intake through completion.",
+      limitations: "A prototype would not replace a production CRM or business continuity system.",
+      links: []
+    },
+    {
+      title: "Project Validation Dashboard",
+      status: "Planned",
+      purpose: "A simple view of tests, documentation, deployment status, known issues and release readiness.",
+      usefulFor: "Small project teams wanting visible evidence before publishing a tool.",
+      technologies: ["HTML", "JavaScript", "Release checks"],
+      aiTools: "AI-assisted checklist design with human verification.",
+      contribution: "Applying an evidence-first approach to testing, documentation and deployment decisions.",
+      validation: "The dashboard itself will be checked against project release scenarios.",
+      limitations: "It will report project evidence; it will not replace full CI/CD or test management platforms.",
+      links: []
+    },
+    {
+      title: "Packaged Windows Utility",
+      status: "Future",
+      purpose: "A downloadable Windows application based on the strongest validated utility from the portfolio.",
+      usefulFor: "Users who need a straightforward installable tool rather than a developer-only prototype.",
+      technologies: ["Windows packaging", "Desktop utility", "Installer"],
+      aiTools: "AI-assisted packaging research, documentation and testing support.",
+      contribution: "Selecting a proven project, defining a safe user experience and documenting installation and limitations.",
+      validation: "Clean-machine installation and core workflow testing will be required before release.",
+      limitations: "Packaging will wait until a project is stable and its privacy model is clear.",
+      links: []
     }
   ],
   certifications: [
