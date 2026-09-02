@@ -1,16 +1,16 @@
 window.RESUME = {
   targetRoles: [
     {
-      title: "Microsoft 365 Administrator",
-      summary: "Users, groups, licensing, Exchange Online, Teams, OneDrive, SharePoint, MFA and administration across Microsoft 365 services."
+      title: "Desktop Support / EUC",
+      summary: "Strong enterprise and MSP-informed experience supporting users, endpoints, applications, access, workplace technology, VIPs and complex incidents through to resolution."
     },
     {
-      title: "Endpoint / Modern Workplace Administrator",
-      summary: "Windows and macOS lifecycle, SCCM, Intune, Autopilot, Jamf Pro, application deployment, patching and compliance."
+      title: "Endpoint / Modern Workplace",
+      summary: "Strong hands-on experience across Windows and macOS support, SCCM, Jamf Pro, application deployment, patching, device lifecycle and endpoint remediation, with Intune and Autopilot exposure."
     },
     {
-      title: "Systems Administration / Cloud Operations",
-      summary: "Identity, access, monitoring, incident response, automation, Azure foundations, cloud operations and infrastructure support."
+      title: "Systems / M365 / Cloud",
+      summary: "Strong experience with Microsoft 365 and Active Directory, plus hands-on exposure across Entra ID, Exchange Online, Azure, PowerShell, incident response and security remediation."
     }
   ],
   roles: [
@@ -20,8 +20,8 @@ window.RESUME = {
       period: "Contract - 2026",
       type: "Enterprise onsite Level 2, workplace technology and endpoint support",
       highlights: [
-        "Delivered high-touch onsite IT support for corporate users, senior stakeholders and VIPs across Microsoft 365, Windows endpoints, Teams Rooms and meeting-room AV.",
-        "Administered Active Directory account creation, password resets, security and group membership, permissions, onboarding and offboarding.",
+        "Delivered high-touch onsite Desktop Support and workplace technology support for corporate users, senior stakeholders and VIPs across Microsoft 365, Windows endpoints, Teams Rooms and meeting-room AV.",
+        "Performed Active Directory account creation, password resets, security and group membership, permissions, onboarding and offboarding.",
         "Handled device builds, deployments, swaps and lifecycle tasks while maintaining accurate asset records and documentation.",
         "Owned complex Level 2 incidents through diagnosis, escalation and resolution across Tech Bar, TeamViewer and RDP support channels.",
         "Substantially reduced a large incident and service-request backlog while maintaining BAU support and SLA expectations, earning positive CIO recognition."
@@ -32,14 +32,14 @@ window.RESUME = {
       company: "Auto & General Insurance",
       title: "Desktop Support Analyst",
       period: "2022-2026 - Approx. 3.5 years",
-      type: "Enterprise EUC, endpoint administration and Level 2 operations",
+      type: "Enterprise Level 2 Desktop Support, EUC and endpoint operations",
       highlights: [
-        "Supported Windows, macOS, Microsoft 365, Citrix virtual desktops, networking, enterprise applications and remote users in a large corporate environment.",
-        "Administered SCCM / Microsoft Configuration Manager for application deployment, software packaging, patching, inventory, client remediation and endpoint actions.",
+        "Provided broad Level 2 Desktop Support across Windows, macOS, Microsoft 365, Citrix virtual desktop users, networking, enterprise applications and remote users in a large corporate environment.",
+        "Worked extensively with SCCM / Microsoft Configuration Manager for application deployment, software packaging, patching, inventory, client remediation and endpoint actions.",
         "Created PowerShell and command-line scripts for SCCM inventory cycles, client actions and endpoint remediation; contributed scripts to internal tooling libraries.",
         "Managed enterprise macOS devices with Jamf Pro, including provisioning, application deployment, configuration, troubleshooting and lifecycle support.",
         "Used Tenable Cloud to identify and remediate Windows and macOS endpoint vulnerabilities in partnership with Security, Systems Administration and technical teams.",
-        "Supported critical incidents and after-hours response with Networking, Systems Administration, Technical Services, ServiceNow and Technology Operations teams."
+        "Supported critical incidents and after-hours response while working alongside Networking, Systems Administration, Technical Services, ServiceNow and Technology Operations teams."
       ],
       tags: ["SCCM", "PowerShell", "Jamf Pro", "Tenable", "Citrix", "CyberArk"]
     },
@@ -50,7 +50,7 @@ window.RESUME = {
       type: "High-volume enterprise service operations",
       highlights: [
         "Delivered Level 1 support with additional Level 2 troubleshooting across hardware, software, networking, user access and Microsoft 365.",
-        "Administered Active Directory users, groups and access requests while supporting onboarding, offboarding and enterprise application access.",
+        "Performed Active Directory user, group and access-request tasks while supporting onboarding, offboarding and enterprise application access.",
         "Managed 30-50+ concurrent ServiceNow incidents and service requests during high workloads within SLA and ITIL-based processes.",
         "Maintained ownership, user communication and structured escalation to specialist technical teams."
       ],
@@ -64,7 +64,7 @@ window.RESUME = {
       highlights: [
         "Troubleshot internet connectivity, VPNs, email, webmail, remote desktops, VoIP, Outlook and Microsoft applications.",
         "Investigated and escalated NBN faults with network engineers while managing multiple concurrent customer incidents.",
-        "Performed PC builds, user account administration, backup monitoring and technical documentation."
+        "Performed PC builds, user account support, backup monitoring and technical documentation."
       ],
       tags: ["VPN", "Networking", "NBN", "VoIP", "Remote support"]
     },
@@ -84,17 +84,17 @@ window.RESUME = {
       company: "Smile IT",
       title: "IT Help Desk Support",
       period: "2019",
-      type: "Managed IT services and early administration exposure",
+      type: "Managed service provider support and early administration exposure",
       highlights: [
-        "Provided Office 365 support and administration, Level 1/2 troubleshooting, user support and technical escalation.",
-        "Maintained network documentation and diagram updates while collaborating with senior engineers on Level 3 escalations."
+        "Provided Office 365 support and administration exposure, Level 1/2 troubleshooting, user support and technical escalation in an MSP environment.",
+        "Maintained network documentation and diagram updates while collaborating with senior engineers on Level 3 escalations across customer environments."
       ],
       tags: ["Office 365", "MSP", "Documentation", "Escalation"]
     }
   ],
   skillGroups: [
     {
-      title: "Microsoft 365 Administration",
+      title: "Microsoft 365 Support",
       items: ["Microsoft 365 Admin Center", "Exchange Online", "Outlook", "Teams", "OneDrive", "SharePoint", "M365 licensing", "Shared mailbox support", "User administration", "Group administration", "MFA", "Windows Hello"]
     },
     {
@@ -102,11 +102,11 @@ window.RESUME = {
       items: ["Active Directory", "Entra ID / Azure AD", "User lifecycle", "Security groups", "Permissions", "Access requests", "Identity troubleshooting", "Least privilege", "Onboarding", "Offboarding", "IAM fundamentals"]
     },
     {
-      title: "Endpoint Administration",
+      title: "Endpoint Management",
       items: ["Windows 10/11", "macOS", "SCCM / ConfigMgr", "Microsoft Intune", "Windows Autopilot", "Jamf Pro", "Device imaging", "Provisioning", "Application deployment", "Software patching", "Device compliance", "Lifecycle management"]
     },
     {
-      title: "Cloud & Operations",
+      title: "Systems, Cloud & Operations",
       items: ["Azure exposure", "AWS Technical Essentials", "AWS Security Essentials", "Incident management", "Critical incidents", "SLA management", "ServiceNow", "Jira", "Confluence", "Monitoring mindset", "Operational ownership", "Documentation"]
     },
     {
@@ -119,15 +119,15 @@ window.RESUME = {
     }
   ],
   adminProof: [
-    "Already administering users, groups, permissions, licensing and endpoint workflows in enterprise environments.",
-    "Already working across SCCM, Jamf Pro, vulnerability remediation, PowerShell and cross-team operations.",
-    "Ready to move from support execution into formal ownership of M365, endpoint, identity, systems and cloud operations."
+    "Strong fit for Desktop Support, EUC and MSP-style technical support roles, with proven ownership across users, endpoints, applications, access, incidents and workplace technology.",
+    "Strong practical experience across Active Directory, Microsoft 365, SCCM, Jamf Pro, vulnerability remediation and PowerShell scripting.",
+    "Well positioned for roles that bridge support, endpoint operations, M365 support, systems support, cloud-adjacent operations and security remediation."
   ],
   projects: [
     {
-      title: "Endpoint administration and lifecycle",
+      title: "Endpoint deployment and lifecycle",
       summary: "Windows and macOS imaging, configuration, application installation, deployment, swaps, upgrades, patching, troubleshooting and retirement using SCCM, Jamf Pro and Microsoft endpoint technologies.",
-      tags: ["Endpoint admin", "SCCM", "Jamf Pro", "Lifecycle"]
+      tags: ["Endpoint support", "SCCM", "Jamf Pro", "Lifecycle"]
     },
     {
       title: "SCCM deployment and automation",
@@ -135,8 +135,8 @@ window.RESUME = {
       tags: ["PowerShell", "ConfigMgr", "Automation", "Packaging"]
     },
     {
-      title: "M365 and identity administration",
-      summary: "Hands-on user, group, licensing, access, onboarding, offboarding and Microsoft 365 support across Active Directory, Entra ID exposure, Outlook, Teams, OneDrive and SharePoint.",
+      title: "Microsoft 365 and identity support",
+      summary: "Strong experience with user, group, licensing, access, onboarding, offboarding and Microsoft 365 support across Active Directory, Outlook, Teams, OneDrive and SharePoint, with Entra ID exposure.",
       tags: ["M365", "AD", "Entra ID", "Access"]
     },
     {
@@ -146,7 +146,7 @@ window.RESUME = {
     },
     {
       title: "Critical incident and operations support",
-      summary: "Diagnosed business-impacting incidents, coordinated specialist teams, supported after-hours response and maintained ownership and communication through service restoration.",
+      summary: "Diagnosed business-impacting incidents, coordinated with specialist teams, supported after-hours response and maintained ownership and communication through service restoration.",
       tags: ["Major incidents", "On-call", "Operations", "Service restoration"]
     },
     {
@@ -165,16 +165,16 @@ window.RESUME = {
   ],
   nextFocus: [
     {
-      title: "M365 Admin",
-      items: ["Microsoft 365 Admin Center", "Exchange Online", "Teams Admin", "SharePoint Admin", "Licensing", "Mailbox and group administration"]
+      title: "Microsoft 365",
+      items: ["Microsoft 365 Admin Center", "Exchange Online exposure", "Teams Admin exposure", "SharePoint Admin exposure", "Licensing", "Mailbox and group support"]
     },
     {
       title: "Intune & Endpoint",
-      items: ["Intune enrollment", "Autopilot", "Configuration profiles", "Compliance policies", "App deployment", "Update rings"]
+      items: ["Intune exposure", "Autopilot exposure", "Configuration profiles", "Compliance policies", "App deployment", "Update rings"]
     },
     {
-      title: "Azure & Cloud Ops",
-      items: ["Azure fundamentals", "RBAC", "Resource groups", "VMs", "VNets", "Azure Monitor", "Log Analytics", "Backup basics"]
+      title: "Cloud Operations",
+      items: ["Azure fundamentals", "Cloud operations concepts", "RBAC", "Resource groups", "VMs", "VNets", "Monitoring", "Backup basics"]
     },
     {
       title: "PowerShell",
