@@ -126,7 +126,7 @@ window.RESUME = {
   adminProof: [
     "Built a responsive portfolio and resume web application with centralized JavaScript content, print-ready output and GitHub Pages delivery.",
     "Designed a two-worktree Git workflow so a stable version and an AI-focused version can be developed, compared and deployed independently.",
-    "Use Orca, Codex and ChatGPT with scoped prompts, factual constraints, local testing, output validation and human review."
+    "Use Orca, Codex and ChatGPT with scoped prompts, factual constraints, local testing, output validation and human review, alongside practical builds such as Transcription Lab and an API-connected automation agent."
   ],
   projects: [
     {
@@ -146,6 +146,21 @@ window.RESUME = {
       summary: "Set up separate Git branches and worktrees for stable and experimental versions of the same application. Each AI conversation works against its own version, with local preview checks and an explicit deployment step controlling which version becomes live.",
       outcome: "Keeps experimentation isolated while preserving a clear, recoverable path from AI-assisted change to production.",
       tags: ["Git", "Git worktrees", "Version control", "Local testing", "Deployment workflow"]
+    },
+    {
+      eyebrow: "Built locally",
+      title: "Transcription Lab",
+      summary: "Built a local Windows audio-transcription workbench using Python, FFmpeg and Whisper-based tooling, with command-line and desktop workflows and ongoing performance and packaging validation.",
+      outcome: "Demonstrates practical AI model integration, desktop workflow design and honest validation of local hardware trade-offs.",
+      tags: ["Python", "faster-whisper", "FFmpeg", "Local AI", "Testing"],
+      links: [["GitHub", "https://github.com/jlbrucehelpful-hash/transcription_lab"]]
+    },
+    {
+      eyebrow: "Prototype",
+      title: "AI Automation Agent",
+      summary: "Built an AI-driven Replit prototype connecting prompt-based decisions with Stripe and other APIs for real-time data processing and workflow automation.",
+      outcome: "Shows API authentication, structured requests, response parsing and practical AI orchestration without claiming production readiness.",
+      tags: ["APIs", "Stripe", "Replit", "Automation", "Prompt logic"]
     },
     {
       title: "Endpoint deployment and lifecycle",
