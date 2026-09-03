@@ -122,7 +122,8 @@ window.RESUME = {
   adminProof: [
     "Strong fit for Desktop Support, EUC and MSP-style technical support roles, with proven ownership across users, endpoints, applications, incidents and ITIL-aligned escalation.",
     "Strong practical experience across Active Directory, Microsoft 365, SCCM, Jamf Pro, vulnerability remediation and PowerShell scripting.",
-    "Well positioned for roles that bridge support, endpoint operations, M365 support, systems support, cloud-adjacent operations and security remediation, with clear knowledge transfer across service desk, customer and end-user audiences."
+    "Well positioned for roles that bridge support, endpoint operations, M365 support, systems support, cloud-adjacent operations and security remediation, with clear knowledge transfer across service desk, customer and end-user audiences.",
+    "Alongside professional IT work, building practical AI and automation projects with Python, PowerShell, Git, local testing and human validation."
   ],
   portfolioProjects: [
     {
@@ -140,20 +141,33 @@ window.RESUME = {
     },
     {
       name: "Transcription Lab",
-      status: "Planned",
+      status: "In development",
       problem: "Turn recorded audio into useful, searchable text with a review step for accuracy.",
-      built: "Planned project brief. The implementation and scope will be defined when development starts.",
+      built: "Built a local Windows workbench for timestamped transcription, with command-line and desktop workflows, audio conversion, recording options and pause-based section headings.",
       usefulFor: "People who need faster transcription, notes and searchable records.",
-      technologies: ["To be selected"],
-      aiTools: ["To be selected"],
-      contribution: "Joel will define the workflow, implement the tool and verify transcription quality.",
-      testing: "Not started. Testing will include representative audio and human review.",
-      limitations: "Accuracy, privacy, audio formats and processing costs are still to be assessed.",
+      technologies: ["Python", "PowerShell", "FFmpeg", "faster-whisper", "Transformers"],
+      aiTools: ["faster-whisper", "Whisper Large V3 Turbo", "Codex", "ChatGPT"],
+      contribution: "Designed and tested the local workflow, explored CPU/model performance trade-offs and documented the next validation steps.",
+      testing: "Command-line and desktop workflows tested locally; broader accuracy, performance and packaging validation remains in progress.",
+      limitations: "Live transcription, packaging and broader hardware validation are still in development.",
+      links: [["GitHub", "https://github.com/jlbrucehelpful-hash/transcription_lab"]]
+    },
+    {
+      name: "AI Automation Agent",
+      status: "Prototype",
+      problem: "Connect AI-driven decisions to useful actions across external services.",
+      built: "Built an AI-driven automation agent in Replit with Stripe and other API integrations for real-time data processing and workflow automation.",
+      usefulFor: "Teams exploring practical API orchestration and AI-assisted workflow execution.",
+      technologies: ["Python", "APIs", "Stripe", "Replit"],
+      aiTools: ["AI workflow design", "Prompt-based logic"],
+      contribution: "Designed API interaction layers for authentication, structured requests, response parsing and action orchestration.",
+      testing: "Prototype interactions and API workflows tested during development; production hardening is not claimed.",
+      limitations: "A prototype rather than a production service; security, reliability and deployment controls would require further work.",
       links: []
     },
     {
       name: "Endpoint Automation Toolkit",
-      status: "Planned",
+      status: "In development",
       problem: "Make repeatable endpoint checks, reporting and remediation easier for support teams.",
       built: "Planned project brief based on existing PowerShell and SCCM automation experience.",
       usefulFor: "IT support and endpoint teams managing repeatable Windows operations.",
@@ -260,6 +274,11 @@ window.RESUME = {
       title: "Backlog remediation and service improvement",
       summary: "Assessed and prioritised a significant backlog by impact and urgency, resolving or escalating work while maintaining BAU support, communication, ticket quality and SLA performance.",
       tags: ["SLA", "ITIL", "Process improvement", "CIO recognition"]
+    },
+    {
+      title: "AI-assisted application and workflow delivery",
+      summary: "Built and documented practical projects including a local audio transcription workbench, an AI-focused portfolio website and an API-connected automation agent, using AI tools as development support with personal review and validation.",
+      tags: ["Python", "AI workflows", "Automation", "Git", "Testing"]
     }
   ],
   showcaseProjects: [
@@ -282,9 +301,21 @@ window.RESUME = {
       usefulFor: "People who need searchable notes from meetings, interviews or recordings without sending audio to a hosted service.",
       technologies: ["Python", "Whisper", "Audio processing"],
       aiTools: "Whisper Large V3 Turbo and AI-assisted workflow design.",
-      contribution: "Planned local workflow, output formats and validation approach; implementation will be documented when built.",
-      validation: "To be tested with representative, sanitised audio and clean-install instructions.",
-      limitations: "Not yet ready for public use; performance and packaging remain to be validated.",
+      contribution: "Built and documented the local workflow, output direction and validation approach; further implementation is ongoing.",
+      validation: "Local workflow checks completed; representative audio, performance and clean-install validation remain.",
+      limitations: "Not yet ready for public use; performance, live transcription and packaging remain to be validated.",
+      links: [["GitHub", "https://github.com/jlbrucehelpful-hash/transcription_lab"]]
+    },
+    {
+      title: "AI Automation Agent",
+      status: "Prototype",
+      purpose: "An AI-driven automation agent connecting prompt-based decisions with Stripe and other APIs.",
+      usefulFor: "Teams exploring practical AI workflow orchestration and real-time service integrations.",
+      technologies: ["Python", "APIs", "Stripe", "Replit"],
+      aiTools: "Prompt-based logic and AI-assisted workflow design.",
+      contribution: "Built authentication, structured request and response-parsing layers, then connected user input to actionable operations.",
+      validation: "Prototype workflows tested during development; production hardening is not claimed.",
+      limitations: "Prototype only; security, reliability and deployment controls require further work.",
       links: []
     },
     {
