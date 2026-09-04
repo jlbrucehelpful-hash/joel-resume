@@ -29,6 +29,7 @@ Maintain Noddy as an experimental and targeted-sharing version for AI-enabled IT
 - `script.js` - Main page rendering and interaction behavior.
 - `dev-server.ps1` - Dependency-free local HTTP preview server.
 - `README.md` - Basic project orientation and local preview instructions.
+- `PROJECTS.md` - Public-safe breakdown of the projects currently shown on Noddy, with evidence, status, plans, and limitations.
 
 ## What has been tested
 

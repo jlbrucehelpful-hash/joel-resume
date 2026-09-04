@@ -7,3 +7,5 @@ Noddy is the experimental and targeted-sharing version; Main remains the primary
 Open `index.html` directly, or run `dev-server.ps1` for local development. Content is maintained in `content.js` and `projects-data.js`; page structure is in `index.html` and `projects.html`; styling is in `styles.css` and `resume.css`.
 
 The repository also includes a print-friendly portfolio view at `portfolio-pdf.html`. Keep personal profile drafts, local runtime data, and other planning notes outside this public repository. Pushing Noddy updates its branch; it does not change Main's GitHub Pages site.
+
+For the current project breakdown, evidence, plans, and limitations, see [`PROJECTS.md`](PROJECTS.md). For the contributor handoff and safety boundaries, see [`PROJECT-CONTEXT.md`](PROJECT-CONTEXT.md).
