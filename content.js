@@ -130,30 +130,18 @@ window.RESUME = {
   ],
   projects: [
     {
-      eyebrow: "Built & published",
-      title: "AI-assisted portfolio and resume web app",
-      summary: "Built a responsive, dependency-free website that turns centralized JavaScript data into a professional portfolio and print-ready resume. Used Orca, Codex and ChatGPT to shape requirements, write and refine code, test locally and prepare deployment through GitHub Pages.",
-      outcome: "Demonstrates AI-assisted web development from idea and content model through testing, source control and publication.",
-      tags: ["Orca", "Codex", "ChatGPT", "HTML/CSS/JS", "GitHub Pages"],
-      links: [
-        ["Live site", "https://jlbrucehelpful-hash.github.io/joel-resume/"],
-        ["Source code", "https://github.com/jlbrucehelpful-hash/joel-resume"]
-      ]
-    },
-    {
-      eyebrow: "Workflow designed",
-      title: "Version-controlled AI build workflow",
-      summary: "Set up separate Git branches and worktrees for stable and experimental versions of the same application. Each AI conversation works against its own version, with local preview checks and an explicit deployment step controlling which version becomes live.",
-      outcome: "Keeps experimentation isolated while preserving a clear, recoverable path from AI-assisted change to production.",
-      tags: ["Git", "Git worktrees", "Version control", "Local testing", "Deployment workflow"]
+      eyebrow: "Featured / In development",
+      title: "Context Mesh",
+      summary: "A model-agnostic MCP server for connected knowledge domains. Each domain can act like its own brain, with controlled directional access, provenance and replaceable storage foundations.",
+      outcome: "Demonstrates backend architecture, MCP integration, ownership boundaries and a practical path from local proof to governed AI context infrastructure.",
+      tags: ["MCP", "TypeScript", "PostgreSQL", "Access control", "AI context"]
     },
     {
       eyebrow: "Built locally",
       title: "Transcription Lab",
       summary: "Built a local Windows audio-transcription workbench using Python, FFmpeg and Whisper-based tooling, with command-line and desktop workflows and ongoing performance and packaging validation.",
       outcome: "Demonstrates practical AI model integration, desktop workflow design and honest validation of local hardware trade-offs.",
-      tags: ["Python", "faster-whisper", "FFmpeg", "Local AI", "Testing"],
-      links: [["GitHub", "https://github.com/jlbrucehelpful-hash/transcription_lab"]]
+      tags: ["Python", "faster-whisper", "FFmpeg", "Local AI", "Testing"]
     },
     {
       eyebrow: "Prototype",
@@ -163,36 +151,11 @@ window.RESUME = {
       tags: ["APIs", "Stripe", "Replit", "Automation", "Prompt logic"]
     },
     {
-      title: "Endpoint deployment and lifecycle",
-      summary: "Windows and macOS imaging, configuration, application installation, deployment, swaps, upgrades, patching, troubleshooting and retirement using SCCM, Jamf Pro and Microsoft endpoint technologies.",
-      tags: ["Endpoint support", "SCCM", "Jamf Pro", "Lifecycle"]
-    },
-    {
-      eyebrow: "Production experience",
-      title: "SCCM deployment and automation",
-      summary: "Application packaging and deployment, patching, device inventory and client remediation, including scripts for manual and scheduled SCCM inventory and flush cycles contributed to internal libraries.",
-      outcome: "Shows practical automation experience grounded in enterprise endpoint operations.",
-      tags: ["PowerShell", "ConfigMgr", "Automation", "Packaging"]
-    },
-    {
-      title: "Microsoft 365 and identity support",
-      summary: "Strong experience with user, group, licensing, access, onboarding, offboarding and Microsoft 365 support across Active Directory, Outlook, Teams, OneDrive and SharePoint, with Entra ID exposure.",
-      tags: ["M365", "AD", "Entra ID", "Access"]
-    },
-    {
-      title: "Endpoint vulnerability remediation",
-      summary: "Used Tenable Cloud to investigate affected endpoints, patch vulnerable software, validate remediation and explore preventative controls with security and technical teams.",
-      tags: ["Tenable Cloud", "Security", "Compliance", "Patching"]
-    },
-    {
-      title: "Critical incident and operations support",
-      summary: "Diagnosed business-impacting incidents, coordinated with specialist teams, supported after-hours response and maintained ownership and communication through service restoration.",
-      tags: ["Major incidents", "Escalation", "On-call", "ITIL", "Service restoration"]
-    },
-    {
-      title: "Backlog remediation and service improvement",
-      summary: "Assessed and prioritised a significant backlog by impact and urgency, resolving or escalating work while maintaining BAU support, communication, ticket quality and SLA performance.",
-      tags: ["SLA", "ITIL", "Process improvement", "CIO recognition"]
+      eyebrow: "In development",
+      title: "Endpoint Automation Toolkit",
+      summary: "PowerShell checks and reports for common Windows endpoint health and support tasks, applying enterprise Desktop Support experience to repeatable operational workflows.",
+      outcome: "Connects the IT support foundation to practical automation and AI-assisted build work.",
+      tags: ["PowerShell", "Windows", "Endpoint health", "Automation"]
     }
   ],
   certifications: [

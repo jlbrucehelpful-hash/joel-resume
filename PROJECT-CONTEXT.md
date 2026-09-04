@@ -6,12 +6,13 @@ This is the AI-focused companion version of a dependency-free personal portfolio
 
 ## Current objective
 
-Maintain Noddy as an experimental and targeted-sharing version for AI-enabled IT support, automation, workflow-building, and responsible AI adoption, while keeping the Main version as the primary IT job-market portfolio.
+Maintain Noddy as an experimental and targeted-sharing version for AI-enabled IT support, automation, workflow-building, and responsible AI adoption, while keeping the Main version as the primary IT job-market portfolio. Context Mesh is the featured project and the visible catalogue should stay limited to current or evidence-backed work.
 
 ## Important decisions and why
 
 - Noddy is more AI-forward than Main so it can demonstrate direction and working methods without replacing the evidence-led IT support positioning.
 - AI claims are grounded in concrete work such as the portfolio website, Transcription Lab, and an API automation prototype. Unfinished work must remain clearly labelled.
+- The visible project catalogue is intentionally reduced to Context Mesh, Transcription Lab, AI Automation Agent, Endpoint Automation Toolkit, and the AI-assisted portfolio website.
 - Content is centralized in `content.js` so experience, skills, project evidence, and development focus can be maintained consistently.
 - The site remains dependency-free and can be previewed with the included PowerShell server or opened directly in a browser.
 - Noddy and Main are separate worktree/branch versions. Publication of either version is controlled independently.
@@ -46,7 +47,7 @@ Maintain Noddy as an experimental and targeted-sharing version for AI-enabled IT
 
 ## Next recommended task
 
-Run a final local browser and print review of Noddy, verify project links, and confirm that every AI claim is backed by current evidence before targeted sharing.
+Run a final local browser and print review of Noddy, verify the Context Mesh and project links, and confirm that every AI claim is backed by current evidence before targeted sharing.
 
 ## Anything Codex must not change
 
