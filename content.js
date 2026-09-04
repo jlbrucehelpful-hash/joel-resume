@@ -246,9 +246,19 @@ window.RESUME = {
   ],
   projects: [
     {
-      title: "Endpoint deployment and lifecycle",
-      summary: "Windows and macOS imaging, configuration, application installation, deployment, swaps, upgrades, patching, troubleshooting and retirement using SCCM, Jamf Pro and Microsoft endpoint technologies.",
-      tags: ["Endpoint support", "SCCM", "Jamf Pro", "Lifecycle"]
+      title: "Context Mesh",
+      summary: "A model-agnostic MCP server for connected knowledge domains. Each domain can act like its own brain, with controlled directional access, provenance and replaceable storage foundations.",
+      tags: ["MCP", "TypeScript", "PostgreSQL", "Access control", "AI context"]
+    },
+    {
+      title: "Transcription Lab",
+      summary: "A local Windows audio-transcription workbench using Python, FFmpeg and Whisper-based tooling, with desktop and command-line workflows and ongoing performance validation.",
+      tags: ["Python", "faster-whisper", "FFmpeg", "Local AI", "Testing"]
+    },
+    {
+      title: "Endpoint Automation Toolkit",
+      summary: "PowerShell checks and reports for common Windows endpoint health and support tasks, applying enterprise Desktop Support experience to repeatable operational workflows.",
+      tags: ["PowerShell", "Windows", "Endpoint health", "Automation"]
     },
     {
       title: "SCCM deployment and automation",
@@ -256,30 +266,10 @@ window.RESUME = {
       tags: ["PowerShell", "ConfigMgr", "Automation", "Packaging"]
     },
     {
-      title: "Microsoft 365 and identity support",
-      summary: "Strong experience with user, group, licensing, access, onboarding, offboarding and Microsoft 365 support across Active Directory, Outlook, Teams, OneDrive and SharePoint, with Entra ID exposure.",
-      tags: ["M365", "AD", "Entra ID", "Access"]
+      title: "Endpoint deployment and lifecycle",
+      summary: "Windows and macOS imaging, configuration, application installation, deployment, swaps, upgrades, patching, troubleshooting and retirement using SCCM, Jamf Pro and Microsoft endpoint technologies.",
+      tags: ["Endpoint support", "SCCM", "Jamf Pro", "Lifecycle"]
     },
-    {
-      title: "Endpoint vulnerability remediation",
-      summary: "Used Tenable Cloud to investigate affected endpoints, patch vulnerable software, validate remediation and explore preventative controls with security and technical teams.",
-      tags: ["Tenable Cloud", "Security", "Compliance", "Patching"]
-    },
-    {
-      title: "Critical incident and operations support",
-      summary: "Diagnosed business-impacting incidents, coordinated with specialist teams, supported after-hours response and maintained ownership and communication through service restoration.",
-      tags: ["Major incidents", "Escalation", "On-call", "ITIL", "Service restoration"]
-    },
-    {
-      title: "Backlog remediation and service improvement",
-      summary: "Assessed and prioritised a significant backlog by impact and urgency, resolving or escalating work while maintaining BAU support, communication, ticket quality and SLA performance.",
-      tags: ["SLA", "ITIL", "Process improvement", "CIO recognition"]
-    },
-    {
-      title: "AI-assisted application and workflow delivery",
-      summary: "Built and documented practical projects including a local audio transcription workbench, an AI-focused portfolio website and an API-connected automation agent, using AI tools as development support with personal review and validation.",
-      tags: ["Python", "AI workflows", "Automation", "Git", "Testing"]
-    }
   ],
   showcaseProjects: [
     {

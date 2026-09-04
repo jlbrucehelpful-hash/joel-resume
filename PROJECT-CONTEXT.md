@@ -6,12 +6,13 @@ This is a dependency-free personal portfolio and resume website for an IT suppor
 
 ## Current objective
 
-Keep the public portfolio focused on Level 2 Desktop Support, EUC, endpoint operations, Modern Workplace, and Microsoft 365 roles while showing practical AI and automation work as a secondary differentiator.
+Keep the public portfolio focused on Level 2 Desktop Support, EUC, endpoint operations, Modern Workplace, and Microsoft 365 roles while showing a compact set of practical current projects. Context Mesh is the featured AI/infrastructure project; Transcription Lab and Endpoint Automation Toolkit are the active local builds.
 
 ## Important decisions and why
 
 - The Main version is IT-first because the strongest verified employment evidence is in enterprise support, endpoint operations, identity, Microsoft 365, security remediation, and incident ownership.
 - AI and automation are presented as supporting evidence, including local transcription, web delivery, and an API automation prototype. Project status and limitations must remain truthful.
+- The visible project catalogue is intentionally reduced to Context Mesh, Transcription Lab, Endpoint Automation Toolkit, SCCM deployment and automation, and endpoint deployment and lifecycle.
 - Content is centralized in `content.js` so the resume, profile sections, and project evidence can be updated consistently.
 - The site remains dependency-free and can be previewed with the included PowerShell server or opened directly in a browser.
 - Main and Noddy are separate worktree/branch versions. Publication of either version is controlled independently.
@@ -47,7 +48,7 @@ Keep the public portfolio focused on Level 2 Desktop Support, EUC, endpoint oper
 
 ## Next recommended task
 
-Run a final local browser and print review of Main and Noddy, then update project statuses or links only where current evidence supports the change.
+Run a final local browser and print review of Main and Noddy, then update Context Mesh links or project statuses only where current evidence supports the change.
 
 ## Anything Codex must not change
 
