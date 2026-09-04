@@ -29,6 +29,7 @@ Keep the public portfolio focused on Level 2 Desktop Support, EUC, endpoint oper
 - `script.js` - Main page rendering and interaction behavior.
 - `dev-server.ps1` - Dependency-free local HTTP preview server.
 - `README.md` - Basic project orientation and local preview instructions.
+- `PROJECTS.md` - Public-safe breakdown of the projects currently shown on Main, with evidence, status, plans, and limitations.
 
 ## What has been tested
 
