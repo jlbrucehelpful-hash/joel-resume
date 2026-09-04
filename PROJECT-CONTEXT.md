@@ -20,6 +20,7 @@ Maintain Noddy as an experimental and targeted-sharing version for AI-enabled IT
 ## Files changed
 
 - `index.html` - AI-focused page structure, metadata, navigation, positioning copy, and section headings.
+- `index.html` - Places role-fit evidence in Professional Profile before the Projects section.
 - `content.js` - Central resume data, experience, AI workflow evidence, skills, projects, qualifications, and development focus.
 - `projects.html` and `projects-data.js` - Public project showcase structure and catalogue data.
 - `projects-page.js` - Renders the project catalogue.
@@ -44,6 +45,7 @@ Maintain Noddy as an experimental and targeted-sharing version for AI-enabled IT
 - Transcription Lab is still undergoing performance, accuracy, live-transcription, packaging, and clean-install validation.
 - The AI Automation Agent is a prototype and is not presented as production-ready software.
 - Project links and public claims require periodic review as repositories and deployments change.
+- Older speculative project concepts may remain in source history, but the public rendered catalogue intentionally excludes them.
 
 ## Next recommended task
 
