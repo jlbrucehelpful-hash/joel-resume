@@ -13,6 +13,7 @@ Maintain Noddy as an experimental and targeted-sharing version for AI-enabled IT
 - Noddy is more AI-forward than Main so it can demonstrate direction and working methods without replacing the evidence-led IT support positioning.
 - AI claims are grounded in concrete work such as the portfolio website, Transcription Lab, and an API automation prototype. Unfinished work must remain clearly labelled.
 - The visible project catalogue is intentionally reduced to Context Mesh, Transcription Lab, AI Automation Agent, Endpoint Automation Toolkit, and the AI-assisted portfolio website.
+- Professional Profile evidence uses one responsive yellow-card grid: two foundation cards, three role-fit cards, and one centred AI/automation card.
 - Content is centralized in `content.js` so experience, skills, project evidence, and development focus can be maintained consistently.
 - The site remains dependency-free and can be previewed with the included PowerShell server or opened directly in a browser.
 - Noddy and Main are separate worktree/branch versions. Publication of either version is controlled independently.
@@ -47,6 +48,7 @@ Maintain Noddy as an experimental and targeted-sharing version for AI-enabled IT
 - The AI Automation Agent is a prototype and is not presented as production-ready software.
 - Project links and public claims require periodic review as repositories and deployments change.
 - Older speculative project concepts may remain in source history, but the public rendered catalogue intentionally excludes them.
+- Tablet layout centres the third role-fit card instead of leaving an empty grid cell; narrow mobile layout stacks profile evidence and text cards.
 
 ## Next recommended task
 
