@@ -25,3 +25,10 @@
 .admin-proof p:nth-child(6){grid-column:2 / 6}
 @media (max-width:1000px) and (min-width:551px){.admin-proof{grid-template-columns:repeat(6,1fr)}.admin-proof p:nth-child(1),.admin-proof p:nth-child(2),.admin-proof p:nth-child(3),.admin-proof p:nth-child(4),.admin-proof p:nth-child(5){grid-column:span 2}.admin-proof p:nth-child(6){grid-column:2 / 6}}
 @media (max-width:550px){.admin-proof{grid-template-columns:1fr;gap:1px}.admin-proof p:nth-child(n){grid-column:auto;width:auto;justify-self:auto}}
+
+/* Keep the six-card composition consistent at desktop and tablet widths. */
+.admin-proof p:nth-child(1),.admin-proof p:nth-child(2){grid-column:span 3}
+.admin-proof p:nth-child(3),.admin-proof p:nth-child(4),.admin-proof p:nth-child(5){grid-column:span 2}
+.admin-proof p:nth-child(6){grid-column:3 / 5}
+@media (max-width:1000px) and (min-width:551px){.admin-proof p:nth-child(1),.admin-proof p:nth-child(2){grid-column:span 3}.admin-proof p:nth-child(3),.admin-proof p:nth-child(4),.admin-proof p:nth-child(5){grid-column:span 2}.admin-proof p:nth-child(6){grid-column:3 / 5}}
+@media (max-width:550px){.admin-proof p:nth-child(n){grid-column:auto;width:auto;justify-self:auto}}
