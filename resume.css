@@ -17,3 +17,11 @@
 @media(max-width:550px){.showcase-hero{min-height:70vh;padding-top:7rem}.showcase-hero h1{font-size:3.5rem}.showcase-card{min-height:0;padding:1.4rem}.showcase-card h2{margin-top:2rem}}
 .projects-link-wrap{margin:0 0 3rem}.projects-link-wrap .back-link{color:var(--ink);border-bottom-color:var(--orange);margin-top:0}
 .showcase-coming{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid var(--line);font-size:.86rem;line-height:1.6;color:#66645e}.showcase-coming strong{display:block;color:var(--orange);font:11px var(--mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.45rem}
+
+/* Profile evidence layout: two top cards, three middle cards, one centred AI card. */
+.admin-proof{grid-template-columns:repeat(6,1fr);margin-top:1rem}
+.admin-proof p:nth-child(1),.admin-proof p:nth-child(2){grid-column:span 3}
+.admin-proof p:nth-child(3),.admin-proof p:nth-child(4),.admin-proof p:nth-child(5){grid-column:span 2}
+.admin-proof p:nth-child(6){grid-column:2 / 6}
+@media (max-width:1000px) and (min-width:551px){.admin-proof{grid-template-columns:repeat(6,1fr)}.admin-proof p:nth-child(1),.admin-proof p:nth-child(2),.admin-proof p:nth-child(3),.admin-proof p:nth-child(4),.admin-proof p:nth-child(5){grid-column:span 2}.admin-proof p:nth-child(6){grid-column:2 / 6}}
+@media (max-width:550px){.admin-proof{grid-template-columns:1fr;gap:1px}.admin-proof p:nth-child(n){grid-column:auto;width:auto;justify-self:auto}}

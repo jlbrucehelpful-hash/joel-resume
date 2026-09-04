@@ -13,6 +13,7 @@ Keep the public portfolio focused on Level 2 Desktop Support, EUC, endpoint oper
 - The Main version is IT-first because the strongest verified employment evidence is in enterprise support, endpoint operations, identity, Microsoft 365, security remediation, and incident ownership.
 - AI and automation are presented as supporting evidence, including local transcription, web delivery, and an API automation prototype. Project status and limitations must remain truthful.
 - The visible project catalogue is intentionally reduced to Context Mesh, Transcription Lab, Endpoint Automation Toolkit, SCCM deployment and automation, and endpoint deployment and lifecycle.
+- Professional Profile evidence uses one responsive yellow-card grid: two foundation cards, three role-fit cards, and one centred AI/automation card.
 - Content is centralized in `content.js` so the resume, profile sections, and project evidence can be updated consistently.
 - The site remains dependency-free and can be previewed with the included PowerShell server or opened directly in a browser.
 - Main and Noddy are separate worktree/branch versions. Publication of either version is controlled independently.
@@ -47,6 +48,7 @@ Keep the public portfolio focused on Level 2 Desktop Support, EUC, endpoint oper
 - Transcription accuracy, performance across hardware, live transcription, packaging, and clean-install behavior require broader validation.
 - Project links and public claims require periodic review as repositories and deployments change.
 - Responsive and print behavior should be checked manually after substantial content or layout changes.
+- Tablet layout centres the third role-fit card instead of leaving an empty grid cell; narrow mobile layout stacks profile evidence and text cards.
 - Older planning records may remain in source data for reference; the public rendered catalogues use the reduced current-project lists documented above.
 
 ## Next recommended task
