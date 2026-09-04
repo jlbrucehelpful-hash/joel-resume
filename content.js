@@ -124,9 +124,12 @@ window.RESUME = {
     }
   ],
   adminProof: [
-    "Built a responsive portfolio and resume web application with centralized JavaScript content, print-ready output and GitHub Pages delivery.",
-    "Designed a two-worktree Git workflow so a stable version and an AI-focused version can be developed, compared and deployed independently.",
-    "Use Orca, Codex and ChatGPT with scoped prompts, factual constraints, local testing, output validation and human review, alongside practical builds such as Transcription Lab and an API-connected automation agent."
+    "My foundation is strong Desktop Support and EUC delivery: supporting onsite and remote users, troubleshooting Windows and macOS devices, resolving Microsoft 365 and access issues, managing device builds and swaps, and acting as a reliable ITIL-aligned escalation point within SLA.",
+    "I also have hands-on exposure across Entra ID, Intune, Exchange Online, Citrix, Azure and security tooling, with continued development towards in-depth system administration, Microsoft 365, Cloud Operations and Cyber Security.",
+    "Strong fit for Desktop Support, EUC and MSP-style technical support roles, with proven ownership across users, endpoints, applications, incidents and ITIL-aligned escalation.",
+    "Strong practical experience across Active Directory, Microsoft 365, SCCM, Jamf Pro, vulnerability remediation and PowerShell scripting.",
+    "Well positioned for roles that bridge support, endpoint operations, M365 support, systems support, cloud-adjacent operations and security remediation, with clear knowledge transfer across service desk, customer and end-user audiences.",
+    "Alongside professional IT work, building practical AI and automation projects with Python, PowerShell, Git, local testing and human validation."
   ],
   projects: [
     {
