@@ -20,6 +20,7 @@ Keep the public portfolio focused on Level 2 Desktop Support, EUC, endpoint oper
 ## Files changed
 
 - `index.html` - Main page structure, metadata, navigation, positioning copy, and section headings.
+- `index.html` - Places role-fit evidence in Professional Profile before the Projects section.
 - `content.js` - Central resume data, experience, skills, project evidence, qualifications, and development focus.
 - `projects.html` and `projects-data.js` - Public project showcase structure and catalogue data.
 - `projects-page.js` - Renders the project catalogue.
@@ -45,6 +46,7 @@ Keep the public portfolio focused on Level 2 Desktop Support, EUC, endpoint oper
 - Transcription accuracy, performance across hardware, live transcription, packaging, and clean-install behavior require broader validation.
 - Project links and public claims require periodic review as repositories and deployments change.
 - Responsive and print behavior should be checked manually after substantial content or layout changes.
+- Older planning records may remain in source data for reference; the public rendered catalogues use the reduced current-project lists documented above.
 
 ## Next recommended task
 
