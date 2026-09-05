@@ -249,7 +249,7 @@ window.RESUME = {
   projects: [
     {
       title: "Context Mesh",
-      summary: "A model-agnostic MCP server for connected knowledge domains, with controlled directional access, provenance and replaceable storage foundations.",
+      summary: "A model-agnostic MCP server that connects knowledge domains with controlled directional access, traceable provenance, and interchangeable storage backends.",
       tags: ["MCP", "TypeScript", "PostgreSQL", "Access control", "AI context"]
     },
     {
