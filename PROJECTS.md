@@ -6,7 +6,7 @@ This document explains the current projects displayed on the Noddy AI-forward po
 
 **Status:** In development; tested local vertical slice.
 
-**What it is:** A model-agnostic MCP server for connected knowledge domains. Personal, Work, Career, or Project knowledge can be treated as separate domains with explicit, directional connections.
+**What it is:** A model-agnostic MCP server that connects knowledge domains with controlled directional access, traceable provenance, and interchangeable storage backends.
 
 **What is demonstrated:** MCP tools over stdio and Streamable HTTP, owner-controlled writes, one-hop directional read inheritance without copying memories, provenance and inheritance paths, revocation, soft deletion, audit events, local JSON persistence, an initial asynchronous PostgreSQL adapter, replaceable retrieval, and access-boundary tests.
 
