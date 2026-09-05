@@ -6,7 +6,7 @@ This document explains the current projects displayed on the Main portfolio. It 
 
 **Status:** In development; tested local vertical slice.
 
-**What it is:** A model-agnostic MCP server for connected knowledge domains. The project uses “brain” as an analogy: Personal, Work, Career, or Project knowledge can be treated as separate domains with explicit, directional connections.
+**What it is:** A model-agnostic MCP server for connected knowledge domains. Personal, Work, Career, or Project knowledge can be treated as separate domains with explicit, directional connections.
 
 **What is demonstrated:**
 
